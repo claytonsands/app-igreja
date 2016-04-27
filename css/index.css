@@ -92,6 +92,30 @@ h1, h2, h3, h4, h5, h6, p, a{
   font-size: 85%;
 }
 
+/* STYLES DO FOOTER */
+footer{
+    background-color: #ffffff;
+    min-height: 5em;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    border-top: 1px solid #dedede;
+    float: left;
+}
+footer p{
+    margin: .3rem auto;
+    max-width: 5.1rem;
+}
+footer p a, footer p a:hover{
+    text-decoration: none; 
+    color: #818a91;
+    font-size: .9rem;
+}
+footer p img{
+    border:1px solid #dedede;
+    padding: .5rem;
+}
+
 /* Estilização mobile até 400px */
 @media screen and (max-width:400px){
   .about {
