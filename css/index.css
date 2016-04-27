@@ -1,0 +1,101 @@
+body {
+  max-height: 100%; /* Can be removed; just added for demo purposes */
+}
+h1, h2, h3, h4, h5, h6, p, a{
+    font-family: Raleway;
+}
+
+.navbar {
+  margin-bottom: 0;
+}
+.navbar img{max-width: 100%; position: relative;}
+
+.navbar-collapse .container-fluid {
+  padding: 2rem 2.5rem;
+  border-bottom: 1px solid #55595c;
+}
+
+.navbar-collapse h4 {
+  color: #818a91;
+}
+
+.navbar-collapse .text-muted {
+  color: #818a91;
+}
+
+.about {
+  max-width: 82%;
+  margin: 0 auto;
+}
+.about img{
+    max-width: 100%; 
+    border:3px solid #2980b9;
+    box-shadow: 2px 2px 8px #555555;
+    margin-bottom: 1em;
+}
+.about h3{
+    color: #3498db;
+    font-family: Raleway;
+    margin-bottom: -.1em;
+    text-shadow: 1px 1px 1px #7f8c8d;
+}
+.about p{
+    color: #7f8c8d;
+}
+
+.social a {
+  font-weight: 500;
+  color: #eceeef;
+}
+.social a:hover {
+  color: #fff;
+}
+
+.jumbotron {
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+  margin-bottom: 0;
+  background-color: #fff;
+}
+
+.jumbotron p:last-child {
+  margin-bottom: 0;
+}
+
+.jumbotron-heading {
+  font-weight: 300;
+}
+
+.jumbotron .container {
+  max-width: 40rem;
+}
+
+.album { 
+  max-height: 100%;/* Can be removed; just added for demo purposes */
+  padding-top: 3rem;
+  background: url(../img/ceu-02.jpg);
+  background-size: cover;
+}
+
+.card {
+  float: left;
+  width: 33.333%;
+  padding: .75rem;
+  margin-bottom: 2rem;
+}
+
+.card > img {
+  margin-bottom: .75rem;
+}
+
+.card-text{
+  font-size: 85%;
+}
+
+/* Estilização mobile até 400px */
+@media screen and (max-width:400px){
+  .about {
+  max-width: 98%;
+  margin: 0 auto;
+  }
+}
